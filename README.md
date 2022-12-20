@@ -14,7 +14,7 @@ public:
 
     ~MyTest() noexcept = default;
 
-    virtual simpletest::TestResult Run() noexcept
+    virtual simpletest::TestResult Run() noexcept override
     {
         int i = 0;
         if(i != 0)
